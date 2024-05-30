@@ -1,0 +1,48 @@
+<!--
+File: index.html
+Author: Fekete János Dávid
+Copyright: 2024, Fekete János Dávid
+Group: Szoft I-1-N
+Date: 2024-05-30
+Github: https://github.com/feketejanosdavid/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK-337</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">        
+  </head>
+  <body>
+    <h1 class="text-center">Ellipsoid surface calculation program</h1>
+    <div class="container">
+      <div class="form">
+        <div class="input">
+          <label for="Aaxis">A axis</label>
+          <input type="text" class="form-control" id="AaxisInput" placeholder="Type here...">
+        </div>
+        <div class="input">
+          <label for="Baxis">B axis</label>
+          <input type="text" class="form-control" id="BaxisInput" placeholder="Type here...">
+        </div>
+        <div class="input">
+          <label for="Caxis">C axis</label>
+          <input type="text" class="form-control" id="CaxisInput" placeholder="Type here...">
+        </div>
+        <button class="btn btn-primary mt-3 mb-2"  id="calcButton"><i class="bi bi-calculator"></i></button>
+        <div class="input">
+          <label for="result">Result</label>
+          <input type="text" class="form-control" id="result" readonly placeholder="Result will appear here">
+        </div>
+      </div>
+
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+

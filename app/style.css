@@ -1,0 +1,13 @@
+/* File: index.html
+Author: Fekete János Dávid
+Copyright: 2024, Fekete János Dávid
+Group: Szoft I-1-N
+Date: 2024-05-30
+Github: https://github.com/feketejanosdavid/
+Licenc: GNU GPL */
+
+.container {
+    border-radius: 20px;
+    background-color: cadetblue;
+    padding: 10px;
+}
